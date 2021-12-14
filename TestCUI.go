@@ -13,7 +13,7 @@ import (
 /*
 	Made by Simone Coletti
 	This is a test for the CUI
-        The code is not the best, I plan on improving it
+        The code is not the best, I plan on improving it (Suggestions are welcome)
 */
 
 func main() {
