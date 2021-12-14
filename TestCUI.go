@@ -265,9 +265,9 @@ func writeBox(x, y, width, height int, name, contents string, foreground tcell.C
 
 	if len(contents) > 0 || selected {
 		if blink == 1 {
-			screen.SetCell(x+1+len(contents), y+1, tcell.StyleDefault, ' ')
+			screen.SetCell(x + 1 + len(contents), y + 1, tcell.StyleDefault, ' ')
 		} else if blink == 0 {
-			screen.SetCell(x+1+len(contents), y+1, style, '|')
+			screen.SetCell(x + 1 + len(contents), y + 1, style, '|')
 		}
 	}
 }
